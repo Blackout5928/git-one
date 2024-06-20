@@ -6,6 +6,14 @@
     <title></title>
   </head>
   <body>
+    <div id="includedContent"></div>
     <h1>Hello</h1>
   </body>
+
+  <script src="jquery.js"></script>
+    <script>
+    $(function(){
+      $("#includedContent").load("header.html"); 
+    });
+    </script>
 </html>
